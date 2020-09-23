@@ -55,3 +55,25 @@
   .example-padding-img .section-wrapper .image-container,
   .example-padding-img .section-wrapper .text-container {
     float: left; }
+
+.example-viewport-units-img .section-wrapper {
+  height: 300px;
+  overflow: hidden; }
+  .example-viewport-units-img .section-wrapper::after {
+    content: '';
+    clear: both;
+    display: block; }
+  .example-viewport-units-img .section-wrapper .image-container {
+    width: 30%; }
+    .example-viewport-units-img .section-wrapper .image-container img {
+      width: 100vw;
+      max-width: 30vw;
+      height: calc(100vw * (9/16));
+      max-height: calc(30vw * (9/16)); }
+  .example-viewport-units-img .section-wrapper .text-container {
+    width: 70%;
+    padding: 0 20px;
+    box-sizing: border-box; }
+  .example-viewport-units-img .section-wrapper .image-container,
+  .example-viewport-units-img .section-wrapper .text-container {
+    float: left; }

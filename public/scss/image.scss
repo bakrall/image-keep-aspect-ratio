@@ -81,6 +81,39 @@
 				float: left;
 			}
 		}
+	}
 
+	&-viewport-units-img {
+		.section-wrapper {
+			height: 300px;
+			overflow: hidden;
+
+			&::after {
+				content: '';
+				clear: both;
+				display: block;
+			}
+
+			.image-container {
+				width: 30%;
+				img {
+					width: 100vw;
+					max-width: 30vw;
+					height: calc(100vw * (9/16));
+					max-height: calc(30vw * (9/16));
+				}
+			}
+
+			.text-container {
+				width: 70%;
+				padding: 0 20px;
+				box-sizing: border-box;
+			}
+
+			.image-container,
+			.text-container {
+				float: left;
+			}
+		}
 	}
 }
