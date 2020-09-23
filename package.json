@@ -1,0 +1,16 @@
+{
+  "name": "image-keep-aspect-ratio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barbara Stadnik\u001b[index.html\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B",
+  "license": "MIT"
+}
